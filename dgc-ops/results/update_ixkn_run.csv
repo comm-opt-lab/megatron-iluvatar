@@ -1,0 +1,2 @@
+numel,state_gib,torch_ms,corex_ms,speedup,allocated_gib,reserved_gib
+67108864,0.75,1.8330987294514973,523.2131754557291,0.0035035408423246066,0.75,0.75

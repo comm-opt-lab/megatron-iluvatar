@@ -1,0 +1,20 @@
+
+PyTorch Profiler Communication Summary
+=============================================
+Profile dir       : /home/yaowenxuan/ff/pretrain/minicpm/runs/20260806_101622-dgc-density0.001/profile
+Event source      : nccl
+Workers           : 4
+Files found       : 8
+Files scanned     : 8
+Comm events       : 2260
+
+Top 5 Communication Operators
+----------------------------------------------------------------
+Operator                  Count   Total ms   Avg ms   % all comm
+----------------------------------------------------------------
+nccl:all_reduce             900   5,369.69     5.97       85.44%
+nccl:all_gather             160     723.02     4.52       11.50%
+nccl:broadcast              960     120.44     0.13        1.92%
+nccl:all_reduce_barrier     160      46.90     0.29        0.75%
+nccl:_all_gather_base        80      24.45     0.31        0.39%
+
