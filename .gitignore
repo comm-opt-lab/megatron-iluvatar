@@ -1,0 +1,19 @@
+# data / training artifacts — never commit these
+*.bin
+*.idx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+logs/
+profiler/
+tensorboard/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+*.swp
+.env
+*.log
